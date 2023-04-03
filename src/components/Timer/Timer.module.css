@@ -1,0 +1,8 @@
+.timerValue{
+    padding:0 8px;
+    width: 36px;
+    height:24px;
+    transition: all 0.3s;
+    font-size: 1.5rem;
+}
+

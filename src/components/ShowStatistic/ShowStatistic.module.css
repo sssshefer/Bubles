@@ -1,0 +1,24 @@
+.wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title * {
+    font-size: 4rem;
+}
+
+.title span {
+    line-height: 7vw;
+    color: #cecece;
+}
+
+@media (max-width: 568px) {
+    .title * {
+        font-size: 3rem;
+    }
+    .title span {
+        line-height: 10vw;
+
+    }
+}

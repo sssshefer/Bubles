@@ -1,0 +1,13 @@
+.timerPanel {
+    display: flex;
+    margin-right: auto;
+    align-items: center;
+    padding-left: 40px;
+}
+
+@media (max-width: 568px) {
+    .timerPanel {
+        padding-left: 0;
+        margin-right: 0;
+    }
+}

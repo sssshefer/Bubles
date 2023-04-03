@@ -1,0 +1,20 @@
+
+.ball{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    animation: increaseInSize 2s infinite alternate linear;
+    background: red;
+    position: absolute;
+    top:-130px;
+    left: -130px;
+}
+
+@keyframes increaseInSize {
+    from{
+     transform: scale(1);
+    }
+    to{
+        transform: scale(1.6);
+    }
+}
